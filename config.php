@@ -3,14 +3,12 @@
     Nombre del archivo: config.php
     Descripcion: Variables globales de configuracion
     ---------------------------------------------------------------------------------------
-    @autor Sustam.com ©
+    @autor 
     @version 1.0
 
     Develop by
     01/02/2012 : Jesus Nazareth Gutierrez Hernandez (Developer)
-    01/02/2012 : Ricardo Castellanos Rivera (Developer)
-    01/12/2012 : Jose Luis Quintero Malacon (Css structuring)
-
+  
     Updated by
     dd/mm/yyyy : Nombre de quien modifico el archivo
 */

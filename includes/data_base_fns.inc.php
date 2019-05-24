@@ -1,25 +1,18 @@
 <?php
 
 function db_connect()
-{
-        
+{       
     $oLink = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD);
-
     if(! $oLink) {
         return false;
     }
-
     //if(! mysqli_select_db(DB_NAME, $oLink)) {
     //    return false;
-    //}
-    
+    //}   
     if(! mysqli_select_db($oLink, DB_NAME)) {
         return false;
-    }
-    
+    } 
     mysqli_set_charset($oLink, 'utf8');    
-
-
     return $oLink;
 }
 

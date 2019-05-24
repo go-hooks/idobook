@@ -7,10 +7,7 @@
     @version 1.0
 
     Develop by
-    01/02/2012 : Jesus Nazareth Gutierrez Hernandez (Developer)
-  
-    Updated by
-    dd/mm/yyyy : Nombre de quien modifico el archivo
+    01/02/2012 : Alejandro Valdes (Developer)
 */
 
 if ($_SERVER['REMOTE_ADDR'] == '11.70.0.51') {
@@ -38,9 +35,9 @@ setlocale(LC_TIME, 'spanish');
 
 
 define('DB_HOST', 'localhost');
-define('DB_USER', 'adminidobook'); 	// tumedico_user	tumed1
-define('DB_PASSWORD', 'idobook100');  // =+D{GmPwp.0s		?E_v~+lRdn(E
-define('DB_NAME', 'idobook'); // tumedico_bd
+define('DB_USER', 'adminidobook');
+define('DB_PASSWORD', 'idobook100'); 
+define('DB_NAME', 'idobook');
 
 // Paths de los directorios
 define('ABS_PATH', dirname(__FILE__).'/');         // Ruta absoluta del admin
@@ -51,5 +48,3 @@ define('UP_PATH', 'admin/production/webroot/uploads/');
 define('UP_IMG_PATH', UP_PATH . 'images/');
 define('UP_FILES_PATH', UP_PATH . 'files/');
 define('BR', '<br />');
-
-

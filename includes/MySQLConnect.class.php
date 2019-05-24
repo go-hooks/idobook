@@ -27,9 +27,7 @@
 			$this->_sDb_user = $sDb_user;
 			$this->_sDb_pass = $sDb_pass;
 		}
-		
-		
-		
+	
 		/* Conexion a la base de datos */
 		function connect($sDb_name = "", $sDb_host = "", $sDb_user = "", $sDb_pass = ""){
 			if($sDb_name != "") $this->_sDb_name = $sDb_name;

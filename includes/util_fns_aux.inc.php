@@ -1,21 +1,9 @@
 <?php
     /*
     Nombre del archivo: util_fns_aux.php
-    Descripcion: funciones auxiliares del cms, no son parte de la version inicial
+    Descripcion: funciones auxiliares del cms
     ---------------------------------------------------------------------------------------
-    @autor Sustam.com ©
-    @version 1.0
-
-    Develop by
-    01/02/2012 : Jesus Nazareth Gutierrez Hernandez (Developer)
-    01/02/2012 : Ricardo Castellanos Rivera (Developer)
-    01/12/2012 : Jose Luis Quintero Malacon (Css structuring)
-
-    Updated by
-    dd/mm/yyyy : Nombre de quien modifico el archivo
-*/
-
-    
+*/  
     //Función que executa un sql
     function get_sql($sSql) {
         $nConn = db_connect();
@@ -59,7 +47,7 @@
         return $aResult{$value};
     }
 
-    // Function created to get all the datas from a table by ID --- Nov 25th 2010
+    // Function created to get all the datas from a table by ID ---
     function get_all_data_from($sTable, $nId) {
 
         if (!is_numeric($nId)) return false;
@@ -151,10 +139,7 @@
 
         return $aContenidos;
     }
-    
-    
-    
-    
+       
     function existe_email_usuario($sEmail, $nId = NULL)
     {
         if(empty($sEmail)) { return false; }
@@ -165,46 +150,31 @@
         if(is_numeric($nId)):
             $sSql .= "AND id != :usuario_id ";
         endif;
-
-        mysql_bind($sSql, array('email' => $sEmail, 'usuario_id' => $nId));
-        
+        mysql_bind($sSql, array('email' => $sEmail, 'usuario_id' => $nId));    
         $nConn = db_connect();
         if(! $nConn) { return false; }
-
         $nResult = mysqli_query($nConn, $sSql);
         if (! $nResult) { return false; }
-
         $nTotal = mysql_result($nResult, 0);
-
         if ($nTotal > 0) {
             return true;
         }
-
         return false;
     }
-    
-    
-    
+      
     function existe_usuario_login($sEmail, $sPassword)
     {
         if(empty($sEmail)) { return false; }
-        if(empty($sPassword)) { return false; }
-        
+        if(empty($sPassword)) { return false; }   
         $nConn = db_connect();
         if(! $nConn) { return false; }
-
         $sSql = "SELECT * "
               . "FROM registros "
               . "WHERE correo = '" . $sEmail . "' "
               . "AND password = '" .  Encrypter::encrypt($sPassword) . "' "
-              . "AND elim = 0 LIMIT 1";
-                
-        $nResult = mysqli_query($nConn, $sSql);
-                
+              . "AND elim = 0 LIMIT 1";           
+        $nResult = mysqli_query($nConn, $sSql);            
         if (! $nResult) { return false; }
-
         $aResult = mysqli_fetch_array($nResult, MYSQLI_ASSOC);
-
         return $aResult;
     }
-   

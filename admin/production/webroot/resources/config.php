@@ -113,7 +113,6 @@ $aConfig = array(
     'database' => array(
 
         'local' => array(
-
             'name' => 'idobook',  
             'user' => 'adminidobook',
             'pass' => 'idobook100',

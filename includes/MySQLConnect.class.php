@@ -4,7 +4,7 @@
 	 * Motor de conexion con la base de datos MySQL
 	 * --------------------------------------------------- 
 	 */
- 
+
 	class MySQLConnect {
 		/* Variables de conexion */
 		var $_sDb_name;
@@ -21,7 +21,7 @@
 		var $_sDb_Error = "";
 		
 		/* Constructor */
-		function MySQLConnect($sDb_name = DB_NAME, $sDb_host = DB_HOST, $sDb_user = DB_USER, $sDb_pass = DB_PASSWORD){
+		function _MySQLConnect($sDb_name = DB_NAME, $sDb_host = DB_HOST, $sDb_user = DB_USER, $sDb_pass = DB_PASSWORD){
 			$this->_sDb_name = $sDb_name;
 			$this->_sDb_host = $sDb_host;
 			$this->_sDb_user = $sDb_user;

@@ -1,1 +1,1 @@
-<?php echo $sajaxContent ?>
+<?php echo $sajaxContent ?>

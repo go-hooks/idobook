@@ -44,7 +44,7 @@
 			}
 			
 			// Seleccionar la base de datos
-			if(!@mysql_select_db($this->_sDb_name, $this->_nDb_ID_connection)){
+			if(!@mysqli_select_db($this->_nDb_ID_connection, $this->_sDb_name)){
 				$this->_sDb_Error = "Imposible conectarse con la base de datos: ".$this->_sDb_name;
 				return 0;
 			}

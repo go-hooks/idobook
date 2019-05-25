@@ -67,7 +67,7 @@ function is_valid_email($email)
 {
     // Checamos que contenga la arroba (@),
     // y la longitud de caracteres sea correcta.
-    if (!ereg("^[^@]{1,64}@[^@]{1,255}$", $email)) {
+    if (!preg_match("^[^@]{1,64}@[^@]{1,255}$", $email)) {
         // Si es incorrecta, retornamos false
         return false;
     }

@@ -17,7 +17,7 @@
         </div>  -->  
 
         <div id="loading_img">
-            <img src="img/Loading/logo.png"> 
+            <img src="img/Loading/logo_idobook_loading.png"> 
         </div>
 
         <div id="loading_slogan">
@@ -52,6 +52,6 @@
     <![endif]-->
 
     </body>
-    
+
 </html>
 

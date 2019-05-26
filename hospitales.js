@@ -1,5 +1,3 @@
-
-
 function hospitales(categoria) {
 var sel = document.getElementById("subcategoria_id");
 
@@ -27,5 +25,5 @@ if(categoria!= 0){
                 error: function (){ 
                 }
             });
-}
+        }
 }

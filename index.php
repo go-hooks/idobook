@@ -25,7 +25,7 @@
     if(isset($_GET['error'])):
         ?>
             <script>                    
-                    alert("El Usuario y/o Contraseña son incorrectos.");                    
+                alert("El Usuario y/o Contraseña son incorrectos.");                    
             </script>
         <?php
     endif; 
@@ -49,147 +49,70 @@
     
 
     $where = "elim = 0"
-
             . " AND localizacion = 'inicio'"
-
             . " AND tipo = 4"
-
             . " AND fecha_inicio <= '" . date("Y/m/d") . "'"
-
             . " AND fecha_fin >= '" . date("Y/m/d") . "'" ;
-
     $banners4 = get_all_actived_inactived('banners', $where, 'RAND()');         
 
 
 
     $where = "elim = 0"
-
             . " AND localizacion = 'inicio'"
-
             . " AND tipo = 5"
-
             . " AND fecha_inicio <= '" . date("Y/m/d") . "'"
-
             . " AND fecha_fin >= '" . date("Y/m/d") . "'" ;
-
     $banners5 = get_all_actived_inactived('banners', $where, 'RAND()');  
 
-    
-
-            
-
     $sql = " SELECT * FROM registros r"
-
             . " INNER JOIN"
-
             . " medicos m"
-
             . " ON r.id = m.id"
-
             . " WHERE"
-
             . " r.elim=0 AND r.autorizado=1 AND r.destacado=1";   
-
-
-
-    $medicos = get_sql($sql);        
-
-
-
-
+    $medicos = get_sql($sql);   
 
     $sql = " SELECT * FROM registros r"
-
             . " INNER JOIN"
-
             . " hospitales m"
-
             . " ON r.id = m.id"
-
             . " WHERE"
-
             . " r.elim=0 AND r.autorizado=1 AND r.destacado=1";
-
-
 
     $hospitales = get_sql($sql);      
 
-
-
     $sql = " SELECT * FROM registros r"
-
             . " INNER JOIN"
-
             . " laboratorios m"
-
             . " ON r.id = m.id"
-
             . " WHERE"
-
             . " r.elim=0 AND r.autorizado=1 AND r.destacado=1";
-
-
 
     $laboratorios = get_sql($sql);      
 
-    
-
-    
-
-    
-
     $sql = " SELECT * FROM invasivos"
-
             . " WHERE"
-
             . " elim = 0"            
-
             . " AND localizacion = 'home'"
-
             . " AND tipo = 1"
-
             . " AND fecha_inicio <= '" . date("Y/m/d") . "'"
-
             . " AND fecha_fin >= '" . date("Y/m/d") . "'" ;
 
-    $invasivo = get_one_sql($sql);      
-
-
-
-    
+    $invasivo = get_one_sql($sql);       
 
     $sql = " SELECT * FROM video";
-
-    $video = get_one_sql($sql);      
-
-    
+    $video = get_one_sql($sql);         
 
 ?>
-
-
 
 </head>
 
 <body id="home">
 
-
-
-
-
     <?php if(! isset($_SESSION['home'])): ?>        
-
-        
-
         <?php if(!empty($invasivo)): ?>        
-
-    
-
             <?php $_SESSION['home'] = 1 ?>
-
             <a href="<?php echo UP_IMG_PATH . $invasivo['imagen']  ?>" class="fancybox" id="promocion"></a>                
-
-            
-
         <?php endif; ?>        
 
             
@@ -1281,46 +1204,22 @@
 
         <h3>Síguenos en</h3>
 
-        
-
         <div class="redes">           
-
             <a href="https://twitter.com/TuMedicolaguna" target="_blank"><img src="img/social_twitter.png" ></a>
-
             <a href="https://www.facebook.com/tumedicolaguna" target="_blank"><img src="img/social_facebook.png" class="medio" ></a>
-
             <a href="http://instagram.com/tumedicolaguna" target="_blank"><img src="img/social_instagram.png" ></a>
-
         </div>
-
-
-
-        
-
+       
         <a href="anunciate.php">
-
         <h3>Anúnciate en un banner</h3>
-
         </a>
 
-        
-
         <div class="banner3 cycle-slideshow" data-cycle-slides='> a' data-cycle-timeout="<?php echo (int)($timmer['tiempo'] * 1000) ?>">
-
-            
-
+       
             <?php foreach ($banners3 as $banner): ?>
-
-
-
                 <a href="<?php echo $banner['url']  ?>" target="_blank">
-
                     <img src="<?php echo UP_IMG_PATH . $banner['imagen']  ?>" >
-
                 </a>
-
-
-
             <?php endforeach; ?>            
 
             

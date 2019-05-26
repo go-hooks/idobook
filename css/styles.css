@@ -718,11 +718,17 @@ body {
 }
 
 #loading {
-    background: url(../img/Loading/fondo.jpg) no-repeat fixed center;
+    background: #ECDEF4;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover
+}
+
+#loading h2 {
+    color: #ECDEF4;
+    padding-left: 30px;
+    font-size: 20px
 }
 
 #loading_img {
@@ -759,36 +765,44 @@ body {
 }
 
 #loading_entrar {
-    margin-top: 500px;
+    margin-top: 600px;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
     top: 0;
-    width: 152px;
+    width: 180px;
     position: absolute
 }
 
 #loading_siguenos {
-    margin-top: 480px;
+    margin-top: 460px;
     margin-left: auto;
-    margin-right: 200px;
+    margin-right: auto;
     left: 0;
     right: 0;
     top: 0;
-    width: 102px;
+    width: 140px;
     position: absolute
 }
 
 #loading_redes {
     margin-top: 500px;
     margin-left: auto;
-    margin-right: 170px;
+    margin-right: auto;
     left: 0;
     right: 0;
     top: 0;
-    width: 167px;
+    width: 250px;
     position: absolute
+}
+
+#loading_redes img {
+    margin-top: 0
+}
+
+#loading_redes img.medio{
+    margin: 0 40px 0 40px
 }
 
 .izq {
@@ -2203,6 +2217,10 @@ footer .copyright a {
 
 .colorazul {
     color: #00b1e0
+}
+
+.coloridobook {
+    color: #ECDEF4
 }
 
 .roboto {

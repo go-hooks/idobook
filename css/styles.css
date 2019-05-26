@@ -718,7 +718,7 @@ body {
 }
 
 #loading {
-    background: #ECDEF4;
+    background: #FFFFFF;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -726,7 +726,7 @@ body {
 }
 
 #loading h2 {
-    color: #FFFFFF;
+    color: #E6D2FA;
     padding-left: 30px;
     font-size: 20px
 }
@@ -2220,7 +2220,7 @@ footer .copyright a {
 }
 
 .coloridobook {
-    color: #FFFFFF
+    color: #E6D2FA
 }
 
 .roboto {

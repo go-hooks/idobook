@@ -25,7 +25,7 @@
         </div>
 
         <div id="loading_siguenos">
-            <img src="img/Loading/siguenos.png"> 
+        <h2 class="coloridobook">SIGUENOS EN NUESTRAS REDES SOCIALES</h2>
         </div>    
     
         <div id="loading_redes">

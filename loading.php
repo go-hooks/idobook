@@ -33,7 +33,6 @@
             <a href="https://www.facebook.com/tumedicolaguna" target="_blank"><img src="img/social_facebook.png" class="medio"></a>
             <a href="http://instagram.com/tumedicolaguna" target="_blank"><img src="img/social_instagram.png"></a>
         </div>
-        </div>-->
 
         <!-- <a href="index.php">   
             <div id="loading_entrar">
@@ -53,6 +52,6 @@
     <![endif]-->
 
     </body>
-
+    
 </html>
 

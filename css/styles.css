@@ -776,13 +776,13 @@ body {
 }
 
 #loading_siguenos {
-    margin-top: 460px;
+    margin-top: 420px;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
     top: 0;
-    width: 140px;
+    width: 450px;
     position: absolute
 }
 

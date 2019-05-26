@@ -17,7 +17,7 @@
         </div>  -->  
 
         <div id="loading_img">
-            <img src="img/Loading/logo_idobook_loading.png"> 
+            <img src="img/Loading/logo.png"> 
         </div>
 
         <div id="loading_slogan">
@@ -29,7 +29,10 @@
         </div>    
     
         <div id="loading_redes">
-            <img src="img/Loading/social.png"> 
+            <a href="https://twitter.com/TuMedicolaguna" target="_blank"><img src="img/social_twitter.png"></a>
+            <a href="https://www.facebook.com/tumedicolaguna" target="_blank"><img src="img/social_facebook.png" class="medio"></a>
+            <a href="http://instagram.com/tumedicolaguna" target="_blank"><img src="img/social_instagram.png"></a>
+        </div>
         </div>-->
 
         <!-- <a href="index.php">   

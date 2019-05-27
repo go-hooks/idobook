@@ -880,43 +880,28 @@ header .wrapper nav ul li:first-child {
 }
 */
 
-#navbar {
+#mainmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
     background-color: #333;
   }
   
-  #navbar a {
+  #mainmenu li {
     float: left;
+  }
+  
+  #mainmenu li a {
     display: block;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
   }
   
-  #navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  #navbar a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
-  
-  .content {
-    padding: 16px;
-  }
-  
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  .sticky + .content {
-    padding-top: 60px;
+  #mainmenu li a:hover {
+    background-color: #111;
   }
 
 section #zonaperfil {

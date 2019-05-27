@@ -888,11 +888,11 @@ header .wrapper nav ul li:first-child {
     background-color: #333;
   }
   
-  #mainmenu li {
+  #mainmenu ul li {
     float: left;
   }
   
-  #mainmenu li a {
+  #mainmenu ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -900,7 +900,7 @@ header .wrapper nav ul li:first-child {
     text-decoration: none;
   }
   
-  #mainmenu li a:hover {
+  #mainmenu ul li a:hover {
     background-color: #111;
   }
 

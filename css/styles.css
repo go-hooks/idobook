@@ -880,29 +880,12 @@ header .wrapper nav ul li:first-child {
 }
 */
 
-#mainmenu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  #mainmenu ul li {
-    float: left;
-  }
-  
-  #mainmenu ul li a {
-    display: block;
-    color: white;
+.menu-top {
+    min-height: 30px;
+    background: #fff;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  #mainmenu ul li a:hover {
-    background-color: #111;
-  }
+    overflow: hidden;
+}
 
 section #zonaperfil {
     height: 65px

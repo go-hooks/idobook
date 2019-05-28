@@ -887,18 +887,88 @@ header .wrapper nav ul li:first-child {
     overflow: hidden;
 }
 
-.menu-top-access {
-    font-weight: 600;
+.menu-top-wrapper {
+    padding: 0 35px;
+    overflow: hidden;
 }
 
 .menu-top-access {
     font-family: ProximaNova,Helvetica,Arial,sans-serif;
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 600;
     margin-top: 10px;
     color: #404040;
     float: right;
 }
+
+.menu {
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #fff;
+    position: relative;
+}
+
+.menu-wrapper {
+    padding: 0 195px 10px;
+}
+
+.pure-g-r {
+    letter-spacing: -.32em;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.main-logo {
+    display: inline-block;
+}
+
+.pure-u-1-5, .pure-u-2-10 {
+    width: 20%;
+}
+
+.main-logo a {
+    display: inline-block;
+    height: 50px;
+}
+
+.main-logo img {
+    margin: 7px 0;
+}
+
+.pure-u-4-5, .pure-u-8-10 {
+    width: 80%;
+}
+
+#nav-main {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 500;
+}
+
+.nav-main {
+    margin: 0;
+    display: inline-block;
+    cursor: default;
+    padding-left: 10px;
+}
+
+.nav-main-item:first-child {
+    padding-left: 2px;
+}
+
+.nav-main-item {
+    padding: 0 2px;
+}
+
+.nav-main-link {
+    font-size: 13px;
+    line-height: 19px;
+    line-height: 45px;
+    padding: 0;
+}
+
 
 section #zonaperfil {
     height: 65px

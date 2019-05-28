@@ -4,43 +4,17 @@
         </div>
 </div>
 
-<div id="menu" class="menu app-menu">
-    <div class="menu-wrapper">
-        <div class="menu-wrapper-align">
-            <div class="pure-g-r">
-                <div class="pure-u-1-5 main-logo">
-                                        <a title="Weddings">
-                        <img alt="Weddings" src="">
-                    </a>
-                </div>
-                <div class="pure-u-4-5">
-                    <div class="app-common-header-container" id="nav-main" role="navigation">
-                        <ul class="nav-main">
-                            <li class="nav-main-item">
-                                <a class="nav-main-link app-header-tab mr5 strong" data-tab="miboda">Planning Tools</a>
-                            </li>
-                            <li class="nav-main-item">
-                                <a class="nav-main-link app-header-tab mr5 strong" data-tab="banquetes">Venues</a>
-                            </li>
-                            <li class="nav-main-item">
-                                <a class="nav-main-link app-header-tab mr5 strong" data-tab="proveedores">Vendors</a>
-                            </li>
-                                    <li class="nav-main-item">
-                                    <a class="nav-main-link app-header-tab mr5 strong" data-tab="comunidad">Forums</a>
-                                </li>
-                                        <li class="nav-main-item mr5 strong">
-                                    <a class="nav-main-link app-header-tab show-caret-aside" data-tab="catalogo">Dresses</a>
-                                </li>
-                                        <li class="nav-main-item mr5 strong">
-                                    <a class="nav-main-link app-header-tab" data-tab="contenidos">Ideas</a>
-                                </li>
-                                <li class="nav-main-item mr5 strong">
-                                <a class="nav-main-link app-header-tab" data-tab="registry">Registry</a>
-                            </li>
-                            <li class="nav-main-item mr5 strong">
-                                <a class="nav-main-link app-header-tab" data-tab="websites">Wedding Website</a>
-                            </li>
-                        </ul>
-</div>
+<nav>
+    <ul class="wrapper">
+        <li><a id="home_icon" href="index.php"><img src="img/ico-home.png"></a></li>
+        <li><a id="menu_option_1" href="medicos.php">BANQUETES</a></li>
+        <li><a id="menu_option_2" href="hospitales.php">WEDDING PLANNERS</a></li>
+        <li><a id="menu_option_3" href="servicios-relacionados.php">JOYERÍAS</a></li>
+        <li><a id="menu_option_4" href="proveedores.php">PROVEEDORES</a></li>
+        <li><a id="menu_option_5" href="proveedores.php">NOVIAS</a></li>
+        <li><a id="menu_option_6" href="empresa.php">QUIÉNES SOMOS</a></li>
+        <li><a id="menu_option_7" href="contacto.php">CONTACTO</a></li>                
+    </ul>
+</nav>
                     
                                         

@@ -712,9 +712,8 @@ dl {
 
 body {
     font-family: 'Raleway', 'sans-serif';
-    font-size: 14px;
+    font-size: 18px;
     color: #505050;
-    /*background: url(../img/bk-home.jpg) no-repeat center 211px*/
 }
 
 #loading {
@@ -880,19 +879,19 @@ header .wrapper nav ul li:first-child {
 }
 */
 
-.menu-top {
+header .menu-top {
     min-height: 30px;
     background: #fff;
     text-align: center;
     overflow: hidden;
 }
 
-.menu-top-wrapper {
+header .menu-top-wrapper {
     padding: 0 35px;
     overflow: hidden;
 }
 
-.menu-top-access {
+header .menu-top-access {
     font-family: ProximaNova,Helvetica,Arial,sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -901,34 +900,34 @@ header .wrapper nav ul li:first-child {
     float: right;
 }
 
-.wrapper nav {
+header .wrapper nav {
     position: absolute;
     bottom: 0
 }
 
-.wrapper nav ul {
+header .wrapper nav ul {
     width: 100%;
     height: 100%;
     line-height: 60px
 }
 
-.wrapper nav ul li {
+header .wrapper nav ul li {
     float: left;
     padding: 0 0 0 30px;
     text-shadow: 0 1px 0 #333;
     font-size: 14px
 }
 
-.wrapper nav ul li a {
+header .wrapper nav ul li a {
     color: #fff;
     font-weight: bold
 }
 
-.wrapper nav ul li a:hover {
+header .wrapper nav ul li a:hover {
     text-decoration: underline
 }
 
-.wrapper nav ul li:first-child {
+header .wrapper nav ul li:first-child {
     padding: 0
 }
 /*

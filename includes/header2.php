@@ -13,8 +13,7 @@
                 <li><a id="menu_option_3" href="servicios-relacionados.php">JOYERÍAS</a></li>
                 <li><a id="menu_option_4" href="proveedores.php">PROVEEDORES</a></li>
                 <li><a id="menu_option_5" href="proveedores.php">NOVIAS</a></li>
-                <li><a id="menu_option_6" href="empresa.php">QUIÉNES SOMOS</a></li>
-                <li><a id="menu_option_7" href="contacto.php">CONTACTO</a></li>                
+                <li><a id="menu_option_6" href="empresa.php">QUIÉNES SOMOS</a></li>               
             </ul>
         </nav>
     </div>

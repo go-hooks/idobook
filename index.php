@@ -111,7 +111,7 @@
         <?php endif; ?>        
     <?php endif; ?>
 
-    <?php include('includes/header2.php'); ?>
+    <?php include('includes/header.php'); ?>
 
     <section class="wrapper">
 

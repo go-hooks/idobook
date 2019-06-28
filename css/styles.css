@@ -718,7 +718,7 @@ dl {
 */
 
 #loading {
-    background: url(../img/Loading/idobook_loading_background.png) no-repeat fixed center;
+    background: #5d5d61;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2350,6 +2350,10 @@ footer .copyright a {
 
 .colorazul {
     color: #00b1e0
+}
+
+.coloridobook {
+    color: #d3baba
 }
 
 .roboto {

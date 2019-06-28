@@ -2434,10 +2434,10 @@
     <Compile Include="img\vita-medica.png" />
     <Compile Include="img\zurich.png" />
     <Compile Include="includes\.DS_Store" />
+    <Compile Include="includes\header2.php" />
     <Compile Include="includes\data_base_fns.inc.php" />
     <Compile Include="includes\footer.php" />
     <Compile Include="includes\header.php" />
-    <Compile Include="includes\header2.php" />
     <Compile Include="includes\metatags.php" />
     <Compile Include="includes\MySQLConnect.class.php" />
     <Compile Include="includes\prefooter.php" />

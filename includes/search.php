@@ -66,7 +66,8 @@
     </div>
 </div>
 
-<form id="zonabuscador" name="contacto"  method="post" action="resultados-busqueda.php">
+<!--<form id="zonabuscador" name="contacto"  method="post" action="resultados-busqueda.php">
     <input required="" id="buscador" type="text" name="buscar" placeholder="Busca el proveedor que desees">
     <input id="btnbuscador" type="submit" value="BUSCAR">        
-</form>
+</form>-->
+

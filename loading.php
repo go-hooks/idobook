@@ -9,13 +9,12 @@
         ?>
   
         <title>Idobook_Loading</title>
-
     </head>
 
     <body id="loading">
 
         <div id="loading_bienvenido">
-            <h2 class="coloridobook">Estamos trabajando en algo especial para ti...</h2>
+            <h2 class="coloridobook">Esp&eacute;ralo...</h2>
         </div>
 
         <div id="loading_img">
@@ -31,9 +30,9 @@
         </div> -->   
     
         <div id="loading_redes">
-            <a href="" target="_blank"><img src="img/social_twitter.png"></a>
-            <a href="" target="_blank"><img src="img/social_facebook.png" class="medio"></a>
-            <a href="https://www.instagram.com/idobookmx/" target="_blank"><img src="img/social_instagram.png"></a>
+            <a href="" target="_blank"><img src="img/social_twitter_new.png"></a>
+            <a href="" target="_blank"><img src="img/social_facebook_new.png" class="medio"></a>
+            <a href="https://www.instagram.com/idobookmx/" target="_blank"><img src="img/social_instagram_new.png"></a>
         </div>
 
         <!-- <a href="index.php">   

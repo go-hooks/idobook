@@ -1,5 +1,7 @@
 /*! normalize.css v1.1.0 | MIT License | git.io/normalize */
 @import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 article, aside, details, figcaption, figure, footer, hgroup, main, section, summary {
     display: block
@@ -30,9 +32,9 @@ html, button, input, select, textarea {
     font-family: ProximaNova,Helvetica,Arial,sans-serif
 }
 
-/*body {
+body {
     margin: 0
-}*/
+}
 
 a:focus {
     outline: thin dotted
@@ -252,10 +254,10 @@ html, button, input, select, textarea {
     color: #222
 }
 
-/*body {
+body {
     font-size: 1em;
     line-height: 1.4
-}*/
+}
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -711,12 +713,11 @@ dl {
     display: block
 }
 
-/*body {
+body {
     font-family: ProximaNova,Helvetica,Arial,sans-serif;
     font-size: 16px;
     color: #505050;
 }
-*/
 
 #loading {
     background: #5d5d61;
@@ -1083,7 +1084,7 @@ footer {
     padding-top: 20px;
     background: url(../img/bk-footer.jpg) center top;
     border-top: #057c9c solid 8px;
-    color: #fff
+    color: #d3baba
 }
 
 footer ul {
@@ -2314,8 +2315,8 @@ hr {
 h3 {
     padding-left: 30px;
     font-size: 18px;
-    color: #00b1e0;
-    background: url(../img/vineta-subtitulo.png) no-repeat left 3px
+    color: #000000;
+    /*background: url(../img/vineta-subtitulo.png) no-repeat left 3px*/
 }
 
 h3 span {
@@ -2338,7 +2339,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: inherit
+    color: #fff
 }
 
 .transition {
@@ -2365,3 +2366,97 @@ a {
     background-size: 89px;
     cursor: pointer
 }
+
+p > a:hover {
+    color: #d9d9d9;
+    text-decoration: underline;
+}
+
+h4 {
+    margin: 1% 0 1% 0;
+}
+
+._14 {
+    font-size: 1.4em;
+}
+
+.footer-social-icons {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+.social-icon {
+    color: #fff;
+}
+
+ul.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #d3baba;
+}
+
+    .fa-facebook:hover {
+        background-color: #3d5b99;
+    }
+
+.fa-twitter {
+    padding: 10px 12px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #d3baba;
+}
+
+    .fa-twitter:hover {
+        background-color: #00aced;
+    }
+
+.fa-youtube {
+    padding: 10px 12px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #d3baba;
+}
+
+    .fa-youtube:hover {
+        background-color: #e64a41;
+    }
+
+.fa-instagram {
+    padding: 10px 12px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #d3baba;
+}
+
+    .fa-instagram:hover {
+        background-color: #E4405F;
+    }

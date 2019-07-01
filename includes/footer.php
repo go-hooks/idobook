@@ -23,8 +23,8 @@
 
 		<ul class="fr">
 			<li><span>CONTACTO:</span></li>
-			<li><img src="img/ico-tel-pie.png">871-89-67-381</li>
-			<li><img src="img/ico-mail-pie.png"><a href="mailto:contacto@idobook.com.mx">contacto@idobook.com.mx</a></li>                       
+			<li><img src="img/ico-tel-pie.png">871-475-38-41</li>
+			<li><img src="img/ico-mail-pie.png"><a href="mailto:contacto@idobook.com.mx">ventas@idobook.com.mx</a></li>                       
       <li>                           
           <div class="fb-like" data-href="https://www.facebook.com/tumedicolaguna" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>                          
       </li>                                         
@@ -40,7 +40,7 @@
 					Marca Registrada 2019
 					</td>
 					<td><a href="aviso-privacidad.php">Aviso de privacidad</a></td>
-					<td><img src="img/logo-pie.png"></td>
+					<!--<td><img src="img/logo-pie.png"></td>-->
 				</tr>
 			</table>			
 		</div>

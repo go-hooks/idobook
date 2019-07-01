@@ -1122,22 +1122,20 @@
 
         <div class="colder">
 
-            <h3>Regístrate con nosotros: </h3>
-
             <div id="zonaregistro">
 
-                <a href="gratis.php"><input type="button" value="REGISTRO GRATUITO" class="btnregistro"></a>
+                <a href="gratis.php">
+                <input type="button" value="REGISTRO GRATUITO" class="btnregistro">
+                </a>
 
-                <a href="premium.php"><input type="button" value="REGISTRO PREMIUM" class="btnregistro"></a>
-
-                
-
+                <a href="premium.php">
+                <input type="button" value="REGISTRO PREMIUM" class="btnregistro">
+                </a>
+              
                 <?php if(! isset($_SESSION['usuario_id'])): ?>
 
                 <input type="button" value="INGRESAR" class="btnregistro openingresar" >
-
-                
-
+          
                     <form class="ingresar" method="post" action="acceso_login.php" name="login">                
 
                         <img src="img/ico-closeingresar.png" class="close">                
@@ -1157,23 +1155,18 @@
                         <a href="recuperar-password.php" class="clear fr">Olvido su Contraseña</a>
 
                     </form>
-
-                
-
                 <?php endif; ?>
-
-                
 
             </div>
 
-            
-
-            <h3>Síguenos en</h3>
-
-            <div class="redes">           
-                <a href="https://twitter.com/TuMedicolaguna" target="_blank"><img src="img/social_twitter.png" ></a>
-                <a href="https://www.facebook.com/tumedicolaguna" target="_blank"><img src="img/social_facebook.png" class="medio" ></a>
-                <a href="http://instagram.com/tumedicolaguna" target="_blank"><img src="img/social_instagram.png" ></a>
+            <div class="footer-social-icons">
+                <h4 class="_14">Follow us on</h4>
+                <ul class="social-icons">
+                    <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+                </ul>
             </div>
         
             <a href="anunciate.php">
@@ -1187,20 +1180,9 @@
                         <img src="<?php echo UP_IMG_PATH . $banner['imagen']  ?>" >
                     </a>
                 <?php endforeach; ?>            
-
-                
-
-                
-
             </div>
 
-            
-
-            
-
             <div class="banner4 cycle-slideshow" data-cycle-slides='> a' data-cycle-timeout="<?php echo (int)($timmer['tiempo'] * 1000) ?>">
-
-                
 
                 <?php foreach ($banners4 as $banner): ?>
 

@@ -19,7 +19,7 @@
     <META NAME="Revisit-after" CONTENT="7 days">
     <META NAME="robots" content="ALL">               
     <META name="distribution" content="global">   
-    <link type="image/jpg" href="img/favicon.jpg" rel="shortcut icon"/>
+    <link type="image/jpg" href="img/favicon.png" rel="shortcut icon"/>
     <!-- Modernizr -->
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     <script src="js/polyfills.js"></script>      

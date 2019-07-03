@@ -5,15 +5,17 @@
     require_once(dirname(__FILE__) . "/ini.php");    
     include("Mobile_Detect.php");
 
-    $detect = new Mobile_Detect();
+    //$detect = new Mobile_Detect();
+
+    redirect('loading.php');
   
-   if (! $detect->isMobile()) 
+   /*if (! $detect->isMobile()) 
    {
     if(! isset($_SESSION['contador'])<1000)
     {  
       redirect('loading.php');
     }
-   }
+   }*/
 
     $ubicacion='inicio';
 

@@ -33,10 +33,13 @@
             </a>
         </div>
 
+        <div id="loading_learn_more">
+            <h3 class="coloridobook">Conoce m&aacute;s aqu&iacute;:</h3>
+        </div>
+
         <a href="doc/idobook_mediakit.pdf" target="_blank">
             <div id="loading_entrar">
                 <h2 class="coloridobook">Media Kit</h2>
-                <!--<img src="img/Loading/entrar.png">-->
             </div>
         </a>  
 

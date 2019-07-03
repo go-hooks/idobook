@@ -767,6 +767,17 @@ body {
     position: absolute
 }
 
+#loading_learn_more {
+    margin-top: 455px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 1045px;
+    right: 0;
+    top: 0;
+    width: 300px;
+    position: absolute
+}
+
 #loading_redes {
     margin-top: 520px;
     margin-left: auto;

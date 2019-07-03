@@ -1,7 +1,7 @@
 <?php
 
     session_start();
-    session_name('medico_laguna');
+    session_name('idobook');
     require_once(dirname(__FILE__) . "/ini.php");    
     include("Mobile_Detect.php");
 
@@ -9,7 +9,7 @@
   
    if (! $detect->isMobile()) 
    {
-    if(! isset($_SESSION['contador']))
+    if(! isset($_SESSION['contador'])<1000)
     {  
       redirect('loading.php');
     }

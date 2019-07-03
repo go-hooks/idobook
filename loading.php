@@ -2,7 +2,7 @@
     <head>
         <?php
             session_start();
-            session_name('medico_laguna');      
+            session_name('idobook');      
             $_SESSION['contador'] = 1;
             require_once(dirname(__FILE__) . "/ini.php");        
             include('includes/metatags.php'); 

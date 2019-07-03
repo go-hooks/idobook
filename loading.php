@@ -21,25 +21,24 @@
             <img src="img/Loading/logo_idobook_loading.png"> 
         </div>
 
-        <!--<div id="loading_slogan">
-        <h2 class="coloridobook">ENCUENTRA TODO LO NECESARIO PARA TU BODA</h2>
-        </div>
-
-        <div id="loading_siguenos">
-        <h2 class="coloridobook">SIGUENOS EN NUESTRAS REDES SOCIALES</h2>
-        </div> -->   
-    
         <div id="loading_redes">
-            <a href="" target="_blank"><img src="img/social_twitter_new.png"></a>
-            <a href="" target="_blank"><img src="img/social_facebook_new.png" class="medio"></a>
-            <a href="https://www.instagram.com/idobookmx/" target="_blank"><img src="img/social_instagram_new.png"></a>
+            <a href="https://twitter.com/idobookmx" target="_blank">
+                <img src="img/social_twitter_new.png" />
+            </a>
+            <a href="https://www.facebook.com/idobookmx" target="_blank">
+                <img src="img/social_facebook_new.png" class="medio" />
+            </a>
+            <a href="https://www.instagram.com/idobookmx/" target="_blank">
+                <img src="img/social_instagram_new.png">
+            </a>
         </div>
 
-        <!-- <a href="index.php">   
+        <a href="doc/idobook_mediakit.pdf" target="_blank">
             <div id="loading_entrar">
-                <img src="img/Loading/entrar.png">
+                <h2 class="coloridobook">Media Kit</h2>
+                <!--<img src="img/Loading/entrar.png">-->
             </div>
-        </a>    -->
+        </a>  
 
         <!-- JQUERY -->
 
@@ -53,6 +52,5 @@
     <![endif]-->
 
     </body>
-
 </html>
 

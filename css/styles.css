@@ -741,18 +741,7 @@ body {
     left: 0;
     right: 0;
     top: 0;
-    width: 496px;
-    position: absolute
-}
-
-#loading_slogan {
-    margin-top: 350px;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    width: 531px;
+    width: 500px;
     position: absolute
 }
 
@@ -768,24 +757,13 @@ body {
 }
 
 #loading_entrar {
-    margin-top: 600px;
+    margin-top: 465px;
     margin-left: auto;
     margin-right: auto;
-    left: 0;
+    left: 1000px;
     right: 0;
     top: 0;
-    width: 180px;
-    position: absolute
-}
-
-#loading_siguenos {
-    margin-top: 420px;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    width: 450px;
+    width: 270px;
     position: absolute
 }
 
@@ -794,7 +772,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     left: 0;
-    right: 0;
+    right: 1000px;
     top: 0;
     width: 220px;
     position: absolute

@@ -123,7 +123,7 @@ p > a:hover {
 }
 
 h4 {
-  margin: 1% 0 1% 0;
+  margin: 1% 0 5% 0;
 }
 
 ._14 {
@@ -131,7 +131,7 @@ h4 {
 }
 
 .footer-social-icons {
-  width: 350px;
+  width: 250px;
   display: block;
   margin: 0 auto;
 }
@@ -210,6 +210,38 @@ ul.social-icons {
   .fa-instagram:hover {
       background-color: #E4405F;
   }
+
+  .form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  
 
 /*-- Extra Bootstrap Column Padding --*/
 

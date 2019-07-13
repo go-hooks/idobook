@@ -18,8 +18,14 @@
 	<div class="container">
 		<div class="row justify-content-center text-center">
 			<div class="col-10 py-5">
-				<h2>Idobook</h2>
-				<p class="lead">No me mandaron la informacion de las invitadas ! JAJAJA !</p><a class="btn btn-purple btn-lg" href="contact-us.php" target="_blank">CONTÁCTANOS</a>
+				<h2>¿Quiénes Somos?</h2>
+				<p class="lead">Somos una start up que trae para todas nuestras Novia una agenda innovadora y amigable de conexión 
+					entre los proveedores de servicios nupciales y nuestras novias; nuestra plataforma ofrece 
+					una agenda impresa y servicios web para lograr crear excelentes relaciones de negocio. 
+					Nuestros esfuerzos estarán siempre dirigidos a lograr esa perfecta conexión para que 
+					nuestras novias encuentren los mejores productos y servicios para su día especial</p>
+					<a class="btn btn-purple btn-lg" href="agenda.php">AGENDA IMPRESA</a>
+					<a class="btn btn-purple btn-lg" href="web.php">POSICIONAMIENTO WEB</a>
 			</div>
 		</div>
 	</div>
@@ -28,7 +34,7 @@
 	<!--- Start Jumbotron -->
 	<div class="jumbotron">
 		<div class="container">
-			<h2 class="text-center pt-5 pb-3">IDOBOOK</h2>
+			<h2 class="text-center pt-5 pb-3">NUESTRAS NOVIAS PODRÁN ENCONTRAR</h2>
 			<div class="row justify-content-center text-center">
 				<div class="col-10 col-md-4">
 					<div class="feature">
@@ -47,7 +53,7 @@
 				<div class="col-10 col-md-4">
 					<div class="feature">
 						<img src="img/iconos_webidobook_wedplanner-12.png">
-						<h3>EVENTOS</h3>
+						<h3>LUGARES PARA EVENTOS</h3>
 						<p>y los mejores eventos con Toño Antunes</p>
 					</div>
 				</div>
@@ -70,34 +76,7 @@
 	<!--- End Two Column Section -->
 
 	<!--- Start Footer -->
-	<footer>
-		<div class="container">
-			<div class="row text-center py-5">
-				<div class="col-md-4">
-					<img src="img/social_facebook_new.png">
-					<p>somos una agenda bien padre!</p>
-				</div>
-				<div class="col-md-4">
-					<h3 class="text-center">INFORMACIÓN</h3><strong>IdoBook</strong>
-                    <p>Feliciano Cobián 150 E<br>
-                    <p>Nueva Los Ángeles<br>
-                    <p>(871) 4753841<br>
-					ventas@idobook.com.mx</p>
-				</div>
-				<div class="col-md-4 pb-5">
-					<h3 class="text-center">FOLLOW US</h3>
-					<div class="footer-social-icons">
-						<ul class="social-icons">
-							<li><a href="https://www.facebook.com/idobookmx" target="_blank" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
-							<li><a href="https://twitter.com/idobookmx" target="_blank" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
-							<li><a href="" target="_blank" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
-							<li><a href="https://www.instagram.com/idobookmx" target="_blank" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div><!--- End of Row -->
-		</div><!--- End of Container -->
-	</footer>
+	<?php include('includes/footer.php'); ?>
 	<!--- End of Footer -->
 
 <!--- Script Source Files -->

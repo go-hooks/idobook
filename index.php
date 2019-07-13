@@ -85,8 +85,15 @@
 					ventas@idobook.com.mx</p>
 				</div>
 				<div class="col-md-4 pb-5">
-					<h3 class="text-center">CONTÁCTANOS</h3><br>
-					<a class="btn btn-outline-light btn-lg" href="#">ENVIAR E-MAIL</a>
+					<h3 class="text-center">FOLLOW US</h3>
+					<div class="footer-social-icons">
+						<ul class="social-icons">
+							<li><a href="https://www.facebook.com/idobookmx" target="_blank" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://twitter.com/idobookmx" target="_blank" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+							<li><a href="" target="_blank" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+							<li><a href="https://www.instagram.com/idobookmx" target="_blank" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+						</ul>
+					</div>
 				</div>
 			</div><!--- End of Row -->
 		</div><!--- End of Container -->

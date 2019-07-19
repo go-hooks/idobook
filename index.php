@@ -18,7 +18,7 @@
 	<div class="container">
 		<div class="row justify-content-center text-center">
 			<div class="col-10 py-5">
-				<h2>¿Quiénes Somos?</h2>
+				<h2>¿Quiénes Somos? RAUL</h2>
 				<p class="lead">Somos una start up que trae para todas nuestras Novia una agenda innovadora y amigable de conexión 
 					entre los proveedores de servicios nupciales y nuestras novias; nuestra plataforma ofrece 
 					una agenda impresa y servicios web para lograr crear excelentes relaciones de negocio. 

@@ -26,7 +26,9 @@
     "tether": "^1.4.6"
   },
   "devDependencies": {
+    "@percy/cypress": "^1.0.9",
     "browser-sync": "^2.26.7",
+    "cypress": "^3.4.1",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2"
   }

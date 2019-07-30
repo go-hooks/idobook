@@ -31,6 +31,7 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="js/fancybox/source/jquery.fancybox.css">
 </head>-->
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 
 <html lang="en">
 <head>
